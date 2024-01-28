@@ -53,7 +53,6 @@ MonoBehaviour:
   Player: {fileID: 0}
   Projectile: {fileID: 414970077265794588, guid: d1bfe019c23561e40b84450a5348a86f, type: 3}
   ShootSound: {fileID: 8300000, guid: b5160f3dc5cd91e46b5a8f720b9c7580, type: 3}
-  SpawnSound: {fileID: 8300000, guid: 4b5e1fb61bfe45b478fa48fbed6d3b7a, type: 3}
   EggSpawnLocation: {fileID: 6478346745310813306}
 --- !u!136 &3741875638948542914
 CapsuleCollider:
@@ -130,12 +129,12 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: 4b5e1fb61bfe45b478fa48fbed6d3b7a, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4b5e1fb61bfe45b478fa48fbed6d3b7a, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -177,7 +176,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
