@@ -1,0 +1,4 @@
+repository "Crazy Cluckers@iHas_Tech@cloud"
+  path "/"
+    br "/main"
+    co "/main"
